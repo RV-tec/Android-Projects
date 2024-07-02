@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="">
+
+    <ImageView
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="252dp"
+        android:layout_height="40dp"
+        android:ems="121"
+        android:inputType="text"
+        android:text="sanika sutar"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="227dp"
+        android:layout_height="36dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="sanikasutar2006"
+        tools:layout_editor_absoluteX="263dp"
+        tools:layout_editor_absoluteY="518dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="167dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="email"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="518dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="178dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="432dp" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="601dp"
+        android:text="9699323495"/>
+
+    <TextView
+        android:id="@+id/editTextText4"
+        android:layout_width="196dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="phone"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="601dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="361dp"
+        android:layout_height="288dp"
+        android:src="@drawable/img"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="73dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

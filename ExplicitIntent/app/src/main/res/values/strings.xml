@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Explicit Intent</string>
+    <string name="second_page">Second Page</string>
+    <string name="third_page">Third Page</string>
+    <string name="second_page1">Second Page</string>
+    <string name="third_page_button">Third Page Button</string>
+</resources>
